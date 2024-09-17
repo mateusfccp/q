@@ -1,4 +1,4 @@
-
+`q` provides zero-cost rational numbers for Dart through an extension type.
 
 ## Features
 
@@ -8,11 +8,9 @@
 ## Usage
 
 ```dart
-const half = Q(1, 2);
+const half1 = Q(1, 2);
 const half2 = Q(2, 4);
 
-print(half.asDouble); // 0.5
-print(half == half2); // true
-print(half.toFractionString()); // 1/2
-print(half2.toFractionString()); // 2/4
+print(half1.asDouble); // 0.5
+print(half1 == half2); // true
 ```

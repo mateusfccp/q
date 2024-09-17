@@ -1,7 +1,10 @@
 name: q
-description: q
-version: 0.0.0
-repository: git@github.com:mateusfccp/q.git
+description: Zero-cost rational numbers for Dart
+version: 0.0.1
+repository: https://github.com/mateusfccp/q.git
 
 environment:
   sdk: ^3.5.2
+
+dev_dependencies:
+  test: ^1.25.8
